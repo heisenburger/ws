@@ -1,0 +1,57 @@
+// Layout
+
+#native-frame {
+	padding: 0 1rem;
+  @include query($bp-tablet){
+    padding: 0 2rem;
+  }
+}
+
+// Header
+
+header {
+  width: 100%;
+  margin-bottom: $spacer;
+
+  .logo {
+    display: block;
+    margin: 2.5rem auto 0;
+    width: 103px;
+    height: 85px;
+    @include query($bp-tablet){
+    //@media screen and (orientation: landscape){
+      margin: 4.25rem 0 0;
+    }
+    @include query($bp-desktop){
+    //@media screen and (orientation: landscape){
+      margin: 7.5rem 0 0;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: $spacer;
+    @include query($bp-tablet){
+    //@media screen and (orientation: landscape){
+      text-align: left;
+    }
+  }
+}
+
+// Content 960
+
+.wrap {
+	width: 100%;
+	margin-bottom: $spacer;
+}
+
+.ninesixty {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+// Footer
+
+footer {
+	width: 100%;
+}

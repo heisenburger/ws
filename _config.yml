@@ -1,0 +1,11 @@
+# Site settings
+title: serena.ws
+email: serenadantingchen@gmail.com
+description: Physicist turned designer developer on a mission to create an accessible and performant web.
+baseurl: ""
+url: "http://serena.ws"
+twitter_username: Sereeena
+github_username:  heisenburger
+
+# Build settings
+markdown: kramdown
