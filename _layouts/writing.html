@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  	
+
+    <div id="fixed-frame" class="frame">
+     <div id="camera-frame"></div>
+    </div>
+
+    <div id="native-frame">
+
+      {% include header.html %}
+
+      <div class="wrap">
+          {{ content }}
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+    <script src="js/three.min.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
+
+</html>

@@ -25,6 +25,6 @@ html #native-frame > div {
   -webkit-transform: translateZ(0px);
 }
 
-html body > canvas.frame {
+html body > canvas .frame {
   z-index: 1;
 }

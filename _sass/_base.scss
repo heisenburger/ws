@@ -1,5 +1,9 @@
 // Reset
 
+* {
+  box-sizing: border-box;
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -35,6 +39,24 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
+}
+
+// Flexbox
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.flex-child {
+  flex: 1 1 320px;
 }
 
 // Images
