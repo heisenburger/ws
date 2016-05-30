@@ -21,39 +21,51 @@ p {
 
 // Headings
 
-h1, h3, h5 {
-  font-family: "NovencentoSansWide", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1, h3, h5,
+.h1, .h3, .h5 {
+  font-family: $sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   margin-top: 1em;
 }
 
-h1, h2 {
+.h2, .h4, .h6 {
+  font-family: $base-font-family;
+  text-transform: capitalize;
+  margin-top: 1em;
+}
+
+h1, h2,
+.h1, .h2 {
   font-size: 1.85em;
   @include query($bp-tablet){
   	font-size: 2.25em;
   }
 }
 
-h3, h4 {
+h3, h4,
+.h3, .h4 {
   font-size: 1.5em;
 }
 
-h5, h6 {
+h5, h6,
+.h5, .h6 {
 	font-size: 1.25em;
 }
 
 
-h2, h4, h6 {
+h2, h4, h6,
+.h2, .h4, .h6 {
   font-weight: 600;
 }
 
 // Blockquote
 
 blockquote {
-  font-family: "QuestaGrande", serif;
+  font-family: $serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.8em;
   border-left: 4px solid $grey-color-light;
   padding: 0 $spacing-unit/2;
   letter-spacing: 0.005em;
@@ -66,20 +78,26 @@ blockquote {
 
 // Featured text
 
-h1, blockquote, .feature-text {
+h1, h2, h3, h4,
+blockquote, .feature-text {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .feature-text {
-	font-family: "QuestaGrande", Georgia, serif;
+	font-family: $serif;
 	font-size: 2rem;
 	line-height: 1.2em;
+  letter-spacing: -0.01em;
 	@include query($bp-tablet){
-		font-size: 3rem;
-	}
+    font-family: $serif-display;
+    font-size: 3rem;
+  }
+  @include query($bp-desktop){
+    font-size: 4rem;
+  }
 	@include query($bp-desktopwide){
-		font-size: 3.75rem;
+		font-size: 4.2rem;
 	}
 }
 

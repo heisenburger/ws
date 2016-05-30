@@ -6,11 +6,18 @@
 
 
 // Variables
-$base-font-family: "FranklinGothic","Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$serif:            "Questa", Georgia, serif;
+$serif-display:    "QuestaGrande", Georgia, serif;
+$sans-serif:       "FranklinGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $spacing-unit:     2rem;
 $spacer:           3.125rem;

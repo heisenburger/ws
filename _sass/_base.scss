@@ -44,7 +44,7 @@ ul, ol, dl, figure,
 // Flexbox
 
 .flex {
-  display: flex;
+  display: flex-inline;
 }
 
 .flex-wrap {
@@ -56,7 +56,10 @@ ul, ol, dl, figure,
 }
 
 .flex-child {
-  flex: 1 1 320px;
+  @include query($bp-tablet){
+    flex: 1 1 auto;
+  }
+  flex: 1 1 160px;
 }
 
 // Images

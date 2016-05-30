@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "FranklinGothic";
   font-weight: 400;
   font-style: normal;
@@ -10,7 +10,7 @@
   font-weight: 400;
   font-style: italic;
   src: url("/fonts/franklingothic-bookit.woff2") format("woff2"),url("fonts/franklingothic-bookit.woff") format("woff")
-}
+}*/
 
 @font-face {
   font-family: "FranklinGothic";
@@ -27,15 +27,23 @@
 }
 
 @font-face {
+  font-family: "Questa";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Questa_Regular.woff2") format("woff2"),url("fonts/Questa_Regular.woff") format("woff")
+}
+
+@font-face {
   font-family: "QuestaGrande";
   font-weight: 400;
   font-style: normal;
   src: url("/fonts/Questa_Grande_Regular.woff2") format("woff2"),url("fonts/Questa_Grande_Regular.woff") format("woff")
 }
 
-@font-face {
+/*@font-face {
   font-family: "NovencentoSansWide";
   font-weight: 800;
   font-style: normal;
   src: url("/fonts/Novecentosanswide-Bold.woff2") format("woff2"),url("fonts/Novecentosanswide-Bold.woff") format("woff")
 }
+*/
