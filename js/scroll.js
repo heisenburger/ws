@@ -86,10 +86,8 @@ function animate() {
 function render() {
   group.rotation.x = 0.002 * scroll;
   // add drift
-  group.rotation.y += 0.001;
-  group.rotation.z += 0.0001;
-  // group.rotation.x += 0.02*scrollDiff;
-  // group.rotation.y += 0.002*scrollDiff;
+  group.rotation.y += 0.002;
+  group.rotation.z += 0.0002;
   renderer.render(scene, camera);
 }
 

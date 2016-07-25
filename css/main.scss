@@ -7,9 +7,9 @@
 
 // Variables
 $base-font-family: -apple-system, BlinkMacSystemFont, 
-    "Segoe UI", "Roboto", "Oxygen", 
-    "Ubuntu", "Cantarell", "Fira Sans", 
-    "Droid Sans", "Helvetica Neue", sans-serif;
+    "Roboto", "Ubuntu", "Segoe UI", 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+    sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -17,7 +17,7 @@ $base-line-height: 1.5;
 
 $serif:            "Questa", Georgia, serif;
 $serif-display:    "QuestaGrande", Georgia, serif;
-$sans-serif:       "FranklinGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $sans-serif:       "FranklinGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $spacing-unit:     2rem;
 $spacer:           3.125rem;
@@ -33,6 +33,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $bp-tablet:        768px;
 $bp-desktop:       1024px;
 $bp-desktopwide:   1440px;
+
+$phi:              1.61803398875%;
 
 
 // mobile-first css; with media queries for tablet and desktop
