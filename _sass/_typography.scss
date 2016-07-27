@@ -118,7 +118,7 @@ li {
 // Links
 
 a {
-  color: $accent-color;
+  color: $text-color;
   text-decoration: none;
   background-color: transparent;
   background-image: -webkit-linear-gradient(transparent -300%,currentColor 600%);
@@ -129,12 +129,22 @@ a {
   background-position: 0 100%;
 
   &:visited {
-    color: darken($accent-color, 15%);
+    color: darken($text-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $accent-color;
     transition: 400ms;
+  }
+}
+
+a.feature-link {
+  color: $text-color;
+  text-decoration: none;
+  background-image: none;
+
+  &:hover {
+    color: $accent-color;
   }
 }
 
@@ -145,7 +155,6 @@ code {
   font-size: 0.95em;
   border: 1px solid $grey-color-light;
   border-radius: 0.2em;
-  background-color: #f4f0d9;
 }
 
 code {
