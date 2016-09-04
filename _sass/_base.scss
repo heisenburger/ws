@@ -41,27 +41,6 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-// Flexbox
-
-.flex {
-  display: flex-inline;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.justify {
-  justify-content: space-between;
-}
-
-.flex-child {
-  @include query($bp-tablet){
-    flex: 1 1 auto;
-  }
-  flex: 1 1 160px;
-}
-
 // Images
 
 img {

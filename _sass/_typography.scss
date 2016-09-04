@@ -21,18 +21,21 @@ p {
 
 // Headings
 
-h1, h3, h5,
-.h1, .h3, .h5 {
+h1, h2, h3, h4 {
+  margin-top: 1em;
+}
+
+h3, h5,
+.h3, .h5 {
   font-family: $base-font-family;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 1em;
+  letter-spacing: 0.1em;
 }
 
 .h2, .h4, .h6 {
   font-family: $base-font-family;
   text-transform: capitalize;
-  margin-top: 1em;
 }
 
 h1, h2,

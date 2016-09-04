@@ -1,4 +1,26 @@
-// Layout
+// Flexbox
+
+.flex {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.flex-child {
+  @include query($bp-tablet){
+    flex: 1 1 auto;
+  }
+  flex: 1 1 160px;
+}
+
+// three.js shit
 
 #native-frame {
 	padding: 0 1rem;
@@ -17,30 +39,28 @@
 
 header {
   width: 100%;
-  margin-bottom: $spacer;
+  margin: 10vh 0 $spacer;
+  // @include query($bp-tablet){
+  //   @media screen and (orientation: portrait){
+  //     margin: 15vh 0 $spacer;
+  //   }
+  // }
+}
 
-  .logo {
-    display: block;
-    margin: 10vh auto 0;
-    width: 103px;
-    height: 85px;
-    @include query($bp-tablet){
-    //@media screen and (orientation: landscape){
-      margin: 4.25rem 0 0;
-    }
-    @include query($bp-desktop){
-    //@media screen and (orientation: landscape){
-      margin: 7.5rem 0 0;
-    }
+.logo {
+  display: block;
+  height: 3rem;
+  @include query($bp-tablet){
+      display: inline-block;
   }
+}
 
-  h1 {
-    text-align: center;
-    @include query($bp-tablet){
-    //@media screen and (orientation: landscape){
-      text-align: left;
-      margin-top: $spacer;
-    }
+.sc {
+  display: block;
+  // margin-top: 0.75rem;
+  @include query($bp-tablet){
+    display: inline-block;
+    padding-left: 1rem;
   }
 }
 
