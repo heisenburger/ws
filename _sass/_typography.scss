@@ -148,6 +148,12 @@ a.feature-link {
 
   &:hover {
     color: $accent-color;
+    // outline: 0.5rem solid #fff;
+    // h3, p {
+    //   background-color: lighten($accent-color, 40%);
+    //   box-shadow: -0.4em 0 0 lighten($accent-color, 40%),
+    //   0.4em 0 0 lighten($accent-color, 40%);
+    // }
   }
 }
 
