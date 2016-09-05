@@ -1,5 +1,10 @@
 // Typesetting
 
+// body {
+//   text-shadow: 1px 1px 0 #ffffff,
+//   -1px -1px 0 #ffffff;
+// }
+
 i, em {
   font-style: italic;
 }
@@ -17,6 +22,36 @@ p {
 	@include query($bp-desktop){
 		display: inline;
 	}
+}
+
+.easyreading {
+  font-family: $serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  > p {
+    line-height: 1.7em;
+    margin-bottom: 1.5em;
+  }
+  > h1 {
+    font-family: $display-sm;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 1em;
+    @include query($bp-desktopwide){
+      font-family: $display;
+      font-size: 7rem;
+      letter-spacing: -0.02em;
+    }
+  }
+  @include query($bp-tablet){
+    font-size: 1.3rem;
+  }
+  @include query($bp-desktop){
+    font-size: 1.4rem;
+  }
+  @include query($bp-desktopwide){
+    font-size: 1.5rem;
+  }
 }
 
 // Headings
@@ -62,20 +97,33 @@ h2, h4, h6,
   font-weight: 600;
 }
 
+.h-sm {
+  font-size: 1rem;
+  @include query($bp-desktopwide){
+    font-size: 1.3rem;
+  }
+}
+
 // Blockquote
 
 blockquote {
-  font-family: $serif;
+  font-family: $display-sm;
   font-weight: 400;
-  font-style: normal;
+  // font-style: normal;
   font-size: 1.8em;
   border-left: 4px solid $grey-color-light;
   padding: 0 $spacing-unit/2;
+  margin: 1em 0;
+  line-height: 1em;
   letter-spacing: 0.005em;
   text-rendering: optimizeLegibility;
 
   > :last-child {
       margin-bottom: 0;
+  }
+
+  @include query($bp-desktop){
+    font-family: $display;
   }
 }
 
@@ -88,7 +136,7 @@ blockquote, .feature-text {
 }
 
 .feature-text {
-	font-family: $serif;
+	font-family: $display-sm;
 	font-size: 2rem;
 	line-height: 1.2em;
   letter-spacing: -0.01em;
@@ -96,7 +144,7 @@ blockquote, .feature-text {
     font-size: 3rem;
   }
   @include query($bp-desktop){
-    font-family: $serif-display;
+    font-family: $display;
     letter-spacing: -0.02em;
     font-size: 4rem;
   }
@@ -141,10 +189,13 @@ a {
   }
 }
 
-a.feature-link {
-  color: $text-color;
+.l-nu {
   text-decoration: none;
   background-image: none;
+}
+
+a.feature-link {
+  color: $text-color;
 
   &:hover {
     color: $accent-color;

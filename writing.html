@@ -1,14 +1,15 @@
 ---
-title: Writing - Serena Chen
+title: Writing
 layout: blog
+permalink: /writing/
 ---
 
 <ul class="nls">
   {% for post in site.posts %}
     <li>
-      <h2>
+      <h4>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
+      </h4>
     </li>
   {% endfor %}
 </ul>

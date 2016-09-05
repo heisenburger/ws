@@ -12,15 +12,20 @@
 
     <div id="native-frame">
 
-      <div class="measure">
+      {% include blog-header.html %}
+
+      
+      {% include blog-title.html %}
+
+      <div class="measure easyreading">
           {{ content }}
       </div>
 
       {% include footer.html %}
 
     </div>
-    <script src="js/three.min.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="/js/three.min.js"></script>
+    <script src="/js/scroll.js"></script>
     {% include ga.html %}
   </body>
 

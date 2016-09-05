@@ -47,6 +47,26 @@ header {
   }
 }
 
+.bheader {
+  @include query($bp-tablet){
+    margin: 5vh 0 $spacer;
+  }
+}
+
+.p-top {
+  padding-top: 0;
+  @include query($bp-tablet){
+    padding-top: $spacer;
+  }
+  @include query($bp-desktopwide){
+    padding-top: $spacer / 4;
+  }
+}
+
+.p-bottom {
+  padding-bottom: $spacer;
+}
+
 .logo {
   display: block;
   height: 3rem;
@@ -82,9 +102,9 @@ header {
 }
 
 .measure {
-  max-width: 39em;
+  max-width: 33em;
   margin: 0 auto;
-  margin-bottom: $spacer;
+  margin-bottom: $spacer*2;
 }
 
 .extraspacer {
@@ -101,6 +121,7 @@ header {
   // min-width: 11rem;
   width: 21%;
   margin: 1em 2em 1em 0;
+  overflow-wrap: break-word;
   @include query($bp-desktop){
     // min-width: 15rem;
   }
@@ -114,6 +135,7 @@ header {
 .nls {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 // Footer
