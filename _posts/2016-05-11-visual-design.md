@@ -2,6 +2,7 @@
 layout: blog
 title:  "Visual Design is the Last Part"
 date:   2016-05-11
+tags:   design
 permalink: /writing/visual-design-is-the-last-part/
 ---
 
@@ -63,4 +64,4 @@ Will our new solution make the problem worse?
 
 These aren’t necessarily hard questions. But asking them at the start to the entire team, instead of later, will save us all a tonne of trouble.
 
-Introduce the problem to your team, early. Hear their perspectives, early. Trust the people on your team to be masters of their own toolkits.
+Introduce the problem to your team, early. Hear their perspectives, early. Trust the people on your team to be masters of their own toolkits.▴

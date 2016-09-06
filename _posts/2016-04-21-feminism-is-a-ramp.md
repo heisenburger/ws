@@ -2,6 +2,7 @@
 layout: blog
 title:  "Feminism is a Ramp"
 date:   2016-04-21
+tags:   feminism
 permalink: /writing/feminism-is-a-ramp/
 ---
 
@@ -88,4 +89,4 @@ This rad, feminist ramp may seem daunting. It may seem too big to conquer. We mi
 
 And when you have that extra strength, when you find that extra power, check in with George Bernard Shaw. Be daring. Be brave. Be a little unreasonable.
 
-We can change the system. We need only to start with ourselves.▼
+We can change the system. We need only to start with ourselves.▴

@@ -27,18 +27,21 @@ p {
 .easyreading {
   font-family: $serif;
   font-size: 1.1rem;
-  font-weight: 300;
+  // font-weight: 500;
   > p {
     line-height: 1.7em;
     margin-bottom: 1.5em;
   }
   > h1 {
-    font-family: $display-sm;
+    // font-family: $display-sm;
     font-size: 3rem;
     font-weight: normal;
     line-height: 1em;
+    @include query($bp-desktop){
+      font-size: 5rem;
+    }
     @include query($bp-desktopwide){
-      font-family: $display;
+      // font-family: $display;
       font-size: 7rem;
       letter-spacing: -0.02em;
     }
@@ -129,14 +132,22 @@ blockquote {
 
 // Featured text
 
+.f-disp {
+  font-family: $display-sm;
+  font-weight: normal;
+  @include query($bp-desktop){
+    font-family: $display;
+  }
+}
+
 h1, h2, h3, h4,
-blockquote, .feature-text {
+blockquote, .feature-text, .f-disp {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .feature-text {
-	font-family: $display-sm;
+	// font-family: $display-sm;
 	font-size: 2rem;
 	line-height: 1.2em;
   letter-spacing: -0.01em;
@@ -144,7 +155,7 @@ blockquote, .feature-text {
     font-size: 3rem;
   }
   @include query($bp-desktop){
-    font-family: $display;
+    // font-family: $display;
     letter-spacing: -0.02em;
     font-size: 4rem;
   }
