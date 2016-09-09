@@ -1,0 +1,15 @@
+<script type="text/javascript">
+  function downloadJSAtOnload() {
+    var threejs = document.createElement("script");
+    threejs.src = "{{ site.baseurl }}/js/three.min.js";
+    document.body.appendChild(threejs);
+    var scrolljs = document.createElement("script");
+    scrolljs.src = "{{ site.baseurl }}/js/scroll.js";
+    document.body.appendChild(scrolljs);
+  }
+  if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
+</script>

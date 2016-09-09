@@ -1,3 +1,6 @@
+// Draws obj and rotates obj depending on user's scroll
+// Serena Chen April 2016
+
 var scroll = 0;
 var scrollDiff = 0;
 var prevScrollTop = 0;
@@ -10,7 +13,6 @@ var create = function(klass, args) {
   return new F(klass, args);
 };
 
-// polyhedron
 var polyhedron = {
   // type: 'IcosahedronGeometry',
   // args: [10, 1]
@@ -18,11 +20,6 @@ var polyhedron = {
   args: [10, 0]
 };
 
-// start scene
-init();
-animate();
-
-// ----
 function init() {
   container = document.getElementById('camera-frame');
 
@@ -31,7 +28,7 @@ function init() {
 
   scene = new THREE.Scene();
 
-  // add stuff
+  // add
 
   if (window.group !== undefined) {
     scene.remove(group);
@@ -55,8 +52,6 @@ function init() {
   }));
   group.add(mesh);
 
-  // renderer
-
   renderer = new THREE.WebGLRenderer({
     antialias: true
   });
@@ -64,9 +59,6 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   container.appendChild(renderer.domElement);
-
-  // controls
-  // controls = new THREE.OrbitControls( camera, renderer.domElement );
 
   window.addEventListener('resize', onWindowResize, false);
 
@@ -91,13 +83,10 @@ function render() {
   renderer.render(scene, camera);
 }
 
-// SCROLL STUFF
-// ------------
-
-// window.addEventListener('scroll', this.onScroll.bind(this));
 window.addEventListener('scroll', function(e) {
-  // scrollDiff = e.target.scrollingElement.scrollTop - prevScrollTop;
-  // prevScrollTop = e.target.scrollingElement.scrollTop;
   scroll = e.target.scrollingElement.scrollTop;
-
 });
+
+// start scene
+init();
+animate();
