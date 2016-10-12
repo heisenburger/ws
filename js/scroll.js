@@ -17,7 +17,7 @@ var polyhedron = {
   // type: 'IcosahedronGeometry',
   // args: [10, 1]
   type: 'OctahedronGeometry',
-  args: [10, 0]
+  args: [10, 1]
 };
 
 function init() {
