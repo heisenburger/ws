@@ -20,21 +20,6 @@
   }
 }
 
-// three.js shit
-
-.native-frame {
-	padding: 0 1rem;
-  @include query($bp-tablet){
-    padding: 0 2rem;
-  }
-  @include query($bp-desktop){
-    padding: 0 10%;
-  }
-  @include query($bp-desktopwide){
-    padding: 0 ($phi*10);
-  }
-}
-
 // Header
 
 header {

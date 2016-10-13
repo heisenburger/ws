@@ -1,17 +1,17 @@
 // three.js
 
-.fixed-frame {
+#fixed-frame {
   overflow: hidden;
   z-index: 2;
   position: fixed;
 }
 
-.fixed-frame > div > * {
+#fixed-frame > #camera-frame > * {
   margin: 0;
   padding: 0;
 }
 
-.native-frame {
+#native-frame {
   position: absolute;
   left: 0;
   right: 0;
@@ -19,12 +19,25 @@
   z-index: 3;
 }
 
-.native-frame > div {
+#native-frame > div {
   z-index: 3;
   transform: translateZ(0px);
   -webkit-transform: translateZ(0px);
 }
 
-canvas .frame {
+body > canvas .frame {
   z-index: 1;
+}
+
+#native-frame {
+  padding: 0 1rem;
+  @include query($bp-tablet){
+    padding: 0 2rem;
+  }
+  @include query($bp-desktop){
+    padding: 0 10%;
+  }
+  @include query($bp-desktopwide){
+    padding: 0 ($phi*10);
+  }
 }
