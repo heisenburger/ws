@@ -22,7 +22,7 @@
 
 // three.js shit
 
-#native-frame {
+.native-frame {
 	padding: 0 1rem;
   @include query($bp-tablet){
     padding: 0 2rem;

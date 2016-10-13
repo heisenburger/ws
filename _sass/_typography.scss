@@ -191,10 +191,6 @@ a {
   background-size: 100% 1px;
   background-position: 0 100%;
 
-  &:visited {
-    color: darken($text-color, 15%);
-  }
-
   &:hover {
     color: $accent-color;
     transition: 400ms;
