@@ -30,7 +30,10 @@ p {
   // font-weight: 500;
   > p {
     line-height: 1.7em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
+    @include query($bp-tablet){
+      margin-bottom: 1.5em;
+    }
   }
   > h1 {
     // font-family: $display-sm;
@@ -60,7 +63,7 @@ p {
 // Headings
 
 h1, h2, h3, h4 {
-  margin-top: 1em;
+  margin-top: 0.8em;
 }
 
 h3, h5,

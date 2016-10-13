@@ -22,29 +22,31 @@
 
 // Header
 
-header {
+header,
+.bheader {
   width: 100%;
-  margin: 10vh 0 $spacer;
+  margin: 5vh 0 $spacer / 2;
   @include query($bp-tablet){
     @media screen and (orientation: landscape){
-      margin: 15vh 0 $spacer;
+      margin: 10vh 0 $spacer / 4;
     }
   }
 }
 
-.bheader {
-  @include query($bp-tablet){
-    margin: 5vh 0 $spacer;
-  }
-}
-
 .p-top {
-  padding-top: 0;
+  padding-top: $spacer / 8;
   @include query($bp-tablet){
     padding-top: $spacer;
   }
   @include query($bp-desktopwide){
     padding-top: $spacer / 4;
+  }
+}
+
+.p-top-mobile{
+  padding-top: $spacer / 8;
+  @include query($bp-tablet){
+    padding-top: 1px;
   }
 }
 
