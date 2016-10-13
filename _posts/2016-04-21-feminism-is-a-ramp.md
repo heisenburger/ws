@@ -17,6 +17,7 @@ You know what I’m talking about. One of those “cool girls”, who were “no
 See, me and a lot of girls I knew, grew up online on the early internet in the ’90s.
 
 **We grew up hating women.** Because all the men around us hated women.
+
 In the summer of 2012, I had this weird feminist awakening. I say ‘weird’, because if you don’t preface the words “feminist awakening”, people look at you as if you’ve just joined a cult. But also, ‘weird’ because I had always considered myself a feminist.
 
 It takes a special kind of cognitive dissonance to participate in early internet culture, while saying, without irony: I am a feminist. I believe in women’s rights. When I finally got sick of caring about what all the dudes around me thought, I stopped talking. I started listening. I started thinking. This ‘feminist awakening’ hit me, hard. Suddenly, sexism was real, to a degree I never understood before.
@@ -50,6 +51,7 @@ There’s this thing in education called “scaffolded learning”. It’s when 
 **I like to think of feminism as a ramp**. A rad, sick, totally awesome ramp. And like any ramp, you can’t just glitch to the top. You need to ease into it. With societal biases, it’s not just learning we have to do. We have to *unlearn* a bunch of stuff too.
 
 So while choice feminism is criticised as overly idealist and naive, it’s important to keep it around. For many, it’s how we survive within the framework of patriarchy. But also, crucially, it’s the kind of stuff that gets through producers, CEOs, editors — ones with veto power. It gets through *gatekeepers*. And these gatekeepers are not just the white dudes running most things. These gatekeepers are also ourselves.
+
 It may seem like I’m talking in circles here, but bear with me.
 
 Think back to the last time you had a discussion with a stranger on the internet about a social issue of some kind. Was it *frustrating*? Did it feel like they just didn’t *get it*? Like they thought the moon didn’t exist? Or you were in some weird kind of cult?
@@ -83,10 +85,11 @@ There’s no question that we chose one of the hardest problems in history to so
 I want to share with you one of my favourite quotes—it’s by the late playwright George Bernard Shaw. He said,
 
 > The reasonable one adapts themselves to the world. The unreasonable one adapts the world, to themselves.
+
 > Therefore, all progress depends on the unreasonable one.
 
 This rad, feminist ramp may seem daunting. It may seem too big to conquer. We might be spaced out, all of us at different points on this ramp. But we’re all doing important work. Support yourself, and your friends, the best way you can.
 
 And when you have that extra strength, when you find that extra power, check in with George Bernard Shaw. Be daring. Be brave. Be a little unreasonable.
 
-We can change the system. We need only to start with ourselves.▴
+We can change the system. We need only to start with ourselves.[▲](#)

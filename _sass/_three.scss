@@ -1,17 +1,17 @@
 // three.js
 
-html #fixed-frame {
+#fixed-frame {
   overflow: hidden;
   z-index: 2;
   position: fixed;
 }
 
-html #fixed-frame > #camera-frame > * {
+#camera-frame > * {
   margin: 0;
   padding: 0;
 }
 
-html #native-frame {
+#native-frame {
   position: absolute;
   left: 0;
   right: 0;
@@ -19,12 +19,12 @@ html #native-frame {
   z-index: 3;
 }
 
-html #native-frame > div {
+#camera-frame {
   z-index: 3;
   transform: translateZ(0px);
   -webkit-transform: translateZ(0px);
 }
 
-html body > canvas .frame {
+.frame {
   z-index: 1;
 }

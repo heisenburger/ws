@@ -114,7 +114,6 @@ blockquote {
   font-weight: 400;
   // font-style: normal;
   font-size: 1.8em;
-  border-left: 4px solid $grey-color-light;
   padding: 0 $spacing-unit/2;
   margin: 1em 0;
   line-height: 1em;
@@ -127,6 +126,8 @@ blockquote {
 
   @include query($bp-desktop){
     font-family: $display;
+    font-size: 2em;
+    margin: 1em -10vw;
   }
 }
 
