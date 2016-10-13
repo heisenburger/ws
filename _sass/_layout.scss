@@ -53,20 +53,13 @@ header {
 }
 
 .logo {
-  display: block;
+  display: inline-block;
   height: 3rem;
-  @include query($bp-tablet){
-      display: inline-block;
-  }
 }
 
 .sc {
-  display: block;
-  // margin-top: 0.75rem;
-  @include query($bp-tablet){
-    display: inline-block;
-    padding-left: 1rem;
-  }
+  display: inline-block;
+  padding-left: 1rem;
 }
 
 // Content
