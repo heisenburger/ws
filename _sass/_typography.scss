@@ -116,10 +116,10 @@ blockquote {
   font-family: $display-sm;
   font-weight: 400;
   // font-style: normal;
-  font-size: 1.8em;
+  font-size: 1.25em;
   padding: 0 $spacing-unit/2;
   margin: 1em 0;
-  line-height: 1em;
+  line-height: 0.75em;
   letter-spacing: 0.005em;
   text-rendering: optimizeLegibility;
 
@@ -131,6 +131,7 @@ blockquote {
     font-family: $display;
     font-size: 2em;
     margin: 1em -10vw;
+    line-height: 1em;
   }
 }
 
