@@ -4,6 +4,7 @@ title:  "Feminism is a Ramp"
 date:   2016-04-21
 tags:   feminism
 permalink: /writing/feminism-is-a-ramp/
+section: writing
 ---
 
 *This is a transcript of the talk I gave at [Refactor](http://refactor.org.nz/) in February. <br/> Cross-posted on [Medium](https://medium.com/hvngry-magazine/feminism-is-a-ramp-96796a63c5c7) and [HVNGRY](http://hvngrymag.com/2016/04/21/feminism-is-a-ramp/).*

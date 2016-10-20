@@ -1,19 +1,8 @@
 ---
-title: Writing
+title: writing
 layout: blog
 permalink: /writing/
+section: writing
 ---
 
-
-<ul class="nls">
-  {% for post in site.posts %}
-    <li class="easyreading">
-        <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
-        <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
-          <h5 class="h-sm">#{{ post.tags }}</h5>
-          <h2 class="f-disp" style="margin:-0.4em 0 -0.1em;">{{ post.title }}</h2>
-          <h5 class="h-sm">{{ post.date | date: "%A, %B %-d, %Y"}}</h5>
-        </a>
-    </li>
-  {% endfor %}
-</ul>
+{% include post-list.html %}

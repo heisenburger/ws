@@ -4,6 +4,7 @@ title:  "Visual Design is the Last Part"
 date:   2016-05-11
 tags:   design
 permalink: /writing/visual-design-is-the-last-part/
+section: writing
 ---
 
 *Cross-posted on [Medium](https://uxdesign.cc/visual-design-is-the-last-part-a20a197fc4af) and [uxdesign.cc](https://uxdesign.cc/visual-design-is-the-last-part-a20a197fc4af).*
