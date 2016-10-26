@@ -3,18 +3,18 @@
   {% if post.section == page.section %}
     <li class="easyreading">
         <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
-      {% if post.externallink == "" %}
-        <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
-      {% else %}
+      {% if post.externallink %}
         <a class="l-nu" href="{{ post.externallink }}">
+      {% else %}
+        <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
-          <h5 class="h-sm">
+          <span class="f-ss h-sm f-sc">
             {% for tag in post.tags %}
               #{{ tag }}
             {% endfor %}
-          </h5>
-          <h2 class="f-disp" style="margin:-0.4em 0 -0.1em;">{{ post.title }}</h2>
-          <h5 class="h-sm">{{ post.date | date: "%A, %B %-d, %Y"}}</h5>
+          </span>
+          <h2 class="f-disp" style="margin:-0.2em 0 -0.1em;">{{ post.title }}</h2>
+          <span class="f-ss h-sm f-sc">{{ post.date | date: "%A, %B %-d, %Y"}}</span>
         </a>
     </li>
   {% endif %}

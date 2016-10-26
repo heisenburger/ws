@@ -1,10 +1,5 @@
 // Typesetting
 
-// body {
-//   text-shadow: 1px 1px 0 #ffffff,
-//   -1px -1px 0 #ffffff;
-// }
-
 i, em {
   font-style: italic;
 }
@@ -15,6 +10,18 @@ b, strong {
 
 p {
   line-height: 1.5em;
+}
+
+// sans serif
+.f-ss {
+  font-family: $base-font-family;
+}
+
+// small caps
+.f-sc {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 .rbr{
@@ -30,7 +37,7 @@ p {
   // font-weight: 500;
   > p {
     line-height: 1.7em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.2em;
     @include query($bp-tablet){
       margin-bottom: 1.5em;
     }
@@ -49,11 +56,14 @@ p {
       letter-spacing: -0.02em;
     }
   }
+  h3 {
+    margin-top: 1em;
+  }
   .f-disp {
     line-height: 1em;
     padding: 0.8rem 0;
   }
-  
+
   @include query($bp-tablet){
     font-size: 1.3rem;
   }

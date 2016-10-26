@@ -1,6 +1,6 @@
 ---
 layout: blog
-title:  "HVNGRY: Turning Strangers into Friends and Passions into Reality"
+title:  "Turning Strangers into Friends and Passions into Reality"
 date:   2015-11-12
 tags:   hvngry, video
 permalink: /talks/hvngry-turning-strangers-into-friends/

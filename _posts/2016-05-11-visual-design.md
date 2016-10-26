@@ -43,7 +43,7 @@ Designers get [decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue
 
 There’s another fact we must take into account before we dismiss layout frameworks completely. As designers we often become siloed in our own products. We only see from the perspective of users learning to use _our_ app.
 
-In reality, each user is learning to use twenty, thirty different apps, and hundreds of different websites. Thus, every novel interaction we introduce must be carefully weighted against its usability and ease of learning.Repeating common patterns is a way we, as a collective design community, make our products easier to learn and easier to use.
+In reality, each user is learning to use twenty, thirty different apps, and hundreds of different websites. Thus, every novel interaction we introduce must be carefully weighted against its usability and ease of learning. Repeating common patterns is a way we, as a collective design community, make our products easier to learn and easier to use.
 
 ### Toolkits in Tandem
 
