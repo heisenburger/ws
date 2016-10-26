@@ -9,15 +9,18 @@ permalink: /work/
 - Redesigned permissioning flows for Internet Banking for Business. 
 - Design (UX, UI, Interaction): main website ([https://www.bnz.co.nz](https://www.bnz.co.nz)). 
 - Design (UX, UI, Interaction, Visual): store locator site ([https://www.bnz.co.nz/locations](https://www.bnz.co.nz/locations)). 
-- Design and implementation, with a deadline of &lt;1 month: BNZ forums ([https://community.bnz.co.nz](https://community.bnz.co.nz)). 
-- Awarded a Chevron (company-wide award). 
+- Design and implementation, with a deadline of &lt;1 month: BNZ forums ([https://community.bnz.co.nz](https://community.bnz.co.nz)).
+- Awarded a GoodWithPixels award (department-wide).
+- Awarded a Chevron (company-wide). 
   
 
-#### Vaer Consulting (2013)
+#### Vaer Consulting (2014)
 
 - Optimised designs and performance for clients’ WordPress sites. 
 - Mitigated a malicious attack, fixed security holes and educated client on good security practices. 
   
+
+#### Freelance Design & Development (2008-2013)
 
 #### Berkeley Student Cooperative (2012)
 

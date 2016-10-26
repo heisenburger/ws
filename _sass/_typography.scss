@@ -49,6 +49,11 @@ p {
       letter-spacing: -0.02em;
     }
   }
+  .f-disp {
+    line-height: 1em;
+    padding: 0.8rem 0;
+  }
+  
   @include query($bp-tablet){
     font-size: 1.3rem;
   }
