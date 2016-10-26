@@ -3,7 +3,11 @@
   {% if post.section == page.section %}
     <li class="easyreading">
         <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
+      {% if post.externallink == "" %}
         <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
+      {% else %}
+        <a class="l-nu" href="{{ post.externallink }}">
+      {% endif %}
           <h5 class="h-sm">
             {% for tag in post.tags %}
               #{{ tag }}
