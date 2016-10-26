@@ -1,0 +1,7 @@
+<svg id="extlink" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+	<g stroke="currentColor" fill="currentColor">
+		<rect x="31.4" y="35.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -7.65 55.5169)" width="63.6" height="3.7"/>
+		<polygon points="87.6,40.7 83.8,40.7 83.8,16.4 59.4,16.4 59.4,12.6 87.6,12.6"/>
+		<polygon points="80.1,87.6 12.6,87.6 12.6,20.1 46.3,20.1 46.3,23.9 16.3,23.9 16.3,83.9 76.3,83.9 76.3,53.9 80.1,53.9"/>
+	</g>
+</svg>

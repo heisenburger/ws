@@ -7,14 +7,20 @@
         <a class="l-nu" href="{{ post.externallink }}">
       {% else %}
         <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}
           <span class="f-ss h-sm f-sc">
             {% for tag in post.tags %}
               #{{ tag }}
             {% endfor %}
           </span>
+      {% endif %}
           <h2 class="f-disp" style="margin:-0.2em 0 -0.1em;">{{ post.title }}</h2>
-          <span class="f-ss h-sm f-sc">{{ post.date | date: "%A, %B %-d, %Y"}}</span>
+          <span class="f-ss h-sm f-sc">{{ post.date | date: "%A, %B %-d, %Y"}}
+            {% if post.externallink %}
+              <svg class="inlineicon" viewbox="0 0 100 100">
+                <use xlink:href="/images/extlink.svg#extlink"/>
+              </svg>
+            {% endif %}
+          </span>
         </a>
     </li>
   {% endif %}

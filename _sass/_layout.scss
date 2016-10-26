@@ -118,6 +118,16 @@ header,
   margin: 0;
 }
 
+// inline icons
+
+.inlineicon {
+  position: relative;
+  top: 0.1em;
+  display: inline-block;
+  height: 1em;
+  fill: currentColor;
+}
+
 // Footer
 
 footer {
