@@ -1,11 +1,8 @@
 <script type="text/javascript">
   function downloadJSAtOnload() {
-    var threejs = document.createElement("script");
-    threejs.src = "{{ site.baseurl }}/js/three.min.js";
-    document.body.appendChild(threejs);
-    var scrolljs = document.createElement("script");
-    scrolljs.src = "{{ site.baseurl }}/js/scroll.js";
-    document.body.appendChild(scrolljs);
+    var compiled = document.createElement("script");
+    compiled.src = "{{ site.baseurl }}/js/closure-compiler/compiled.js";
+    document.body.appendChild(compiled);
   }
   if (window.addEventListener)
     window.addEventListener("load", downloadJSAtOnload, false);
