@@ -2,7 +2,7 @@
 layout: blog
 title:  "On Earthrise, Extremism, Electronics and Empathy"
 date:   2015-07-04
-tags:   
+tags:   politics
 permalink: /writing/earthrise-extremism-electronics-empathy/
 section: writing
 ---
