@@ -34,7 +34,7 @@ String theory is one of the mathematical models some physicists made to try and
 
 We can’t say for sure other universes are out there, but it is super fun to think, within the confines of this model, what could be possible?
 
-Dark energy is a whole different story. Our current, well-tested, models for the universe has withstood almost a century worth of experiments☿. Physicists, for the most part, trust these models to give accurate predictions. From what we can see in the universe, and from our calculations from our model, we can figure out how the universe on a whole should be behaving.
+Dark energy is a whole different story. Our current, well-tested, models for the universe has withstood almost a century worth of <span id="experiments">experiments[☿](#experiments-note)</span>. Physicists, for the most part, trust these models to give accurate predictions. From what we can see in the universe, and from our calculations from our model, we can figure out how the universe on a whole should be behaving.
 
 It didn’t do what we expected. We didn’t think it would be, but measurements tell us our universe is expanding. Not only that, but it is expanding faster and faster as time goes on. For everything to work consistently, there must be some extra energy around the universe, making everything expand. But we can’t see it! So we call it ‘dark energy’.
 
@@ -48,7 +48,7 @@ Short answer: Yes! Well, maybe.
 
 Wormholes — all kinds of wormholes — are something we haven’t seen, but some of our models say they are possible. So we don’t know if they really are real yet! Depending on which models you pick, different kinds of wormholes are possible.
 
-A kind of wormhole that could allow travel from one universe to another is something called a Kerr black hole♀. In a usual black hole, gravity pulls everything past the event horizon (where even light can’t escape!), towards the point in the middle called the singularity. At this point, many of our models (our laws of physics) breaks down. We have no idea what even _might_ happen here! But for a spinning black hole, this singularity expands out into a ring shape —a hole shape — something that matter might be able to travel through.
+A kind of wormhole that could allow travel from one universe to another is something called a <span id="kerr">Kerr black hole[♀](#kerr-notes)</span>. In a usual black hole, gravity pulls everything past the event horizon (where even light can’t escape!), towards the point in the middle called the singularity. At this point, many of our models (our laws of physics) breaks down. We have no idea what even _might_ happen here! But for a spinning black hole, this singularity expands out into a ring shape —a hole shape — something that matter might be able to travel through.
 
 If we were to pretend that we had a spaceship robust enough to go into this kind of black hole without being spaghettified and torn to bits, maybe we could go through this ring. The model (called the Kerr metric) tells us that inside this ring is another ‘exterior’ to the black hole. Some think this means another universe.
 
@@ -114,7 +114,7 @@ This sounds easy, and measuring distances in a flat space (like on a piece of fl
 
 It might look like the blue line is the shortest between Paris to Tokyo, but it’s over 1000km longer than the red line. The closest distance between any two points on a globe are along things called Great Circles. These are the lines that airplanes travel along.
 
-With things more complicated than a sphere, things get trickier still. Remember how spacetime is like a rubber sheet — it can expand and distort. Really heavy things, like the sun and stars, can bend the fabric of our universe♁. It gets really hard to measure how big something is when your ruler bends along with the rest of the universe.
+With things more complicated than a sphere, things get trickier still. Remember how spacetime is like a rubber sheet — it can expand and distort. <span id="fabric">Really</span> heavy things, like the sun and stars, can bend the fabric of our universe[♁](#fabric-notes). It gets really hard to measure how big something is when your ruler bends along with the rest of the universe.
 
 To define how we’re going to measure distance in spacetime, we use a thing called a _metric_. This tells us where the shortest distance lines are, and from that we can see how spacetime expands, contracts, and bends.
 
@@ -140,11 +140,11 @@ A lot of people ask me if time travel is possible. They’re of course talking a
 
 _Some notes_
 
-☿ In science, if a theory has lasted through a lot of experiments, then it’s a lot better than one that no one has poked at. See, there’s this thing that good theories should have, called _falsifiability_. That is, if you have an idea about how something works, it should be able to be proven wrong. Why? It’s easy to prove something wrong, but you could spend forever trying to prove something right. If a scientific theory has been around for years and years with scientists trying to prove it wrong, and they haven’t yet, then that theory must be a very good one.
+<span id="experiments-note">☿</span> In science, if a theory has lasted through a lot of experiments, then it’s a lot better than one that no one has poked at. See, there’s this thing that good theories should have, called _falsifiability_. That is, if you have an idea about how something works, it should be able to be proven wrong. Why? It’s easy to prove something wrong, but you could spend forever trying to prove something right. If a scientific theory has been around for years and years with scientists trying to prove it wrong, and they haven’t yet, then that theory must be a very good one. [&#65514;](#experiments)
 
-♀ The Kerr black hole is named after astrophysicist [Roy Kerr](http://en.wikipedia.org/wiki/Roy_Kerr), a professor at Canterbury University in Christchurch!
+<span id="kerr-notes">♀</span> The Kerr black hole is named after astrophysicist [Roy Kerr](http://en.wikipedia.org/wiki/Roy_Kerr), a professor at Canterbury University in Christchurch! [&#65514;](#kerr)
 
-♁ They say that light travels in straight lines, and technically, that’s true. See, light travels in straight lines _inside spacetime_. If spacetime bends, light follows along the bends in spacetime. For the perspective of light, it’s still travelling straight. Large gravitational fields bend spacetime.
+<span id="fabric-notes">♁</span> They say that light travels in straight lines, and technically, that’s true. See, light travels in straight lines _inside spacetime_. If spacetime bends, light follows along the bends in spacetime. For the perspective of light, it’s still travelling straight. Large gravitational fields bend spacetime.
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*o-4h3dtFev7WbYwjYuL1Ug.jpeg" width="100%" height="auto"/>
 
@@ -152,6 +152,6 @@ We can see this in real, deep-space photos of distant galaxies. Check out the bl
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*iONzXpQQdEnOx8wMyO65mQ.jpeg" width="100%" height="auto"/>
 
-They look a bit stretched, don’t they? Especially the one on the bottom right. Now let me tell you what’s actually happening: All these blue galaxies are actually different views of the _same galaxy_. Since they’re so far away, the light coming from them has been split and bent by all the big galaxies between it and us.
+They look a bit stretched, don’t they? Especially the one on the bottom right. Now let me tell you what’s actually happening: All these blue galaxies are actually different views of the _same galaxy_. Since they’re so far away, the light coming from them has been split and bent by all the big galaxies between it and us. [&#65514;](#fabric)
 
 Whoa.[▲](#)
