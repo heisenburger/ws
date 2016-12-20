@@ -2,7 +2,7 @@
 layout: blog
 title: "The Ideal Styling Language — A Gedankenexperiment"
 date: 2016-11-30
-event: CSSConfAu
+event: CSSConfAu 2016
 tags: css
 permalink: /talks/ideal-styling-language-cssconfau/
 externallink: http://2016.cssconf.com.au/

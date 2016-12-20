@@ -1,39 +1,3 @@
-<!-- <ul class="nls">
-  {% for post in site.posts %}
-  {% if post.section == page.section %}
-    <li class="easyreading">
-        <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
-      {% if post.externallink %}
-        <a class="l-nu" href="{{ post.externallink }}">
-      {% else %}
-        <a class="l-nu" href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}
-          <h2 class="f-disp" style="margin:-0.2em 0 -0.1em;">{{ post.title }}</h2>
-          <span class="f-ss h-sm p-up">
-            {% if post.section == talks %}
-              <span class="f-ss">
-                {{ event }}
-              </span> &mdash; 
-            {% endif %}
-            <span class="f-ss">
-              {% for tag in post.tags %}
-                #{{ tag }}
-              {% endfor %}
-            </span>
-
-            {{ post.date | date: "%-d %B %Y"}}
-            {% if post.externallink %}
-              <svg class="inlineicon" viewbox="0 0 100 100">
-                <use xlink:href="/images/extlink.svg#extlink"/>
-              </svg>
-            {% endif %}
-          </span>
-        </a>
-    </li>
-  {% endif %}
-  {% endfor %}
-</ul> -->
-
 <div class="fullwidth">
   {% for post in site.posts %}
     {% if post.section == page.section %}
