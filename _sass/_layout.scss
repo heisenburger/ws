@@ -43,7 +43,7 @@ header,
   }
 }
 
-.p-top-mobile{
+.p-top-mobile {
   padding-top: $spacer / 8;
   @include query($bp-tablet){
     padding-top: 1px;
@@ -52,6 +52,16 @@ header,
 
 .p-bottom {
   padding-bottom: $spacer;
+}
+
+.p-up {
+  position: relative;
+  top: -1em;
+}
+
+.p-down {
+  position: relative;
+  top: 1em;
 }
 
 .logo {
@@ -102,11 +112,17 @@ header,
   width: 21%;
   margin: 1em 2em 1em 0;
   overflow-wrap: break-word;
-  @include query($bp-desktop){
-    // min-width: 15rem;
-  }
   h3 {
     margin-bottom: 0;
+  }
+}
+
+.post-link {
+  display: block;
+  padding: 1rem 0 0;
+  @include query($bp-desktop){
+    padding: 1.25rem 5.1rem 0.25rem;
+    border-bottom: 1px dashed lighten($accent-color,40%);
   }
 }
 
