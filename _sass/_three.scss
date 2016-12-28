@@ -2,13 +2,8 @@
 
 .fixed-frame {
   overflow: hidden;
-  z-index: 2;
+  z-index: 1;
   position: fixed;
-}
-
-.camera-frame > * {
-  margin: 0;
-  padding: 0;
 }
 
 .native-frame {
@@ -16,7 +11,7 @@
   left: 0;
   right: 0;
   top: 0;
-  z-index: 3;
+  z-index: 2;
 }
 
 .native-frame > div {
@@ -24,10 +19,6 @@
   transform: translateZ(0px);
   -webkit-transform: translateZ(0px);
 }
-
-// body > canvas .frame {
-//   z-index: 1;
-// }
 
 .native-frame {
   padding: 0 1rem;

@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   &:focus {
-    outline: 0.25em solid lighten($accent-color, 30%);
+    outline: 0.25rem solid lighten($accent-color, 30%);
     transition: 0.1s;
   }
 }
@@ -59,7 +59,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: $base-font-size * 0.95;
+  font-size: 0.95rem;
 }
 
 // Clearfix
