@@ -66,6 +66,19 @@ small {
     line-height: 1em;
     padding: 0.8rem 0;
   }
+  @include query($bp-tablet){   
+    font-size: 1.3rem;    
+  }   
+  @include query($bp-desktop){    
+    font-size: 1.4rem;    
+    .f-disp {   
+      line-height: 1em;   
+      padding: 0.8rem 0;    
+    }   
+  }   
+  @include query($bp-desktopwide){    
+    font-size: 1.5rem;    
+  }
 }
 
 // Headings
