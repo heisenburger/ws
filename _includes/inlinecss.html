@@ -1,4 +1,10 @@
+{% capture styles %}
+{% include styles.css %}
+{% endcapture %}
+
 <style>
+{{ styles | scssify }}
+
 @font-face {
   font-family: "Questa";
   font-weight: 400;
