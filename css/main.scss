@@ -46,6 +46,7 @@ $phi:              1.61803398875%;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "fonts",
   "base",
   "typography",
   "layout",
