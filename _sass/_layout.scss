@@ -126,12 +126,17 @@ header,
   }
 }
 
+
 // list style
 
 .nls {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 // inline icons

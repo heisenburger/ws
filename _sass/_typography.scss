@@ -16,9 +16,13 @@ small {
   font-size: 0.875em;
 }
 
-// sans serif
+// font
 .f-ss {
   font-family: $base-font-family;
+}
+
+.f-s {
+  font-family: $serif;
 }
 
 // small caps
@@ -36,7 +40,6 @@ small {
 }
 
 .easyreading {
-  font-family: $serif;
   font-size: 1.1rem;
   > p {
     line-height: 1.7em;
@@ -66,6 +69,9 @@ small {
     line-height: 1em;
     padding: 0.8rem 0;
   }
+  li {
+    margin-bottom: 0.25em;
+  }
   @include query($bp-tablet){   
     font-size: 1.3rem;    
   }   
@@ -78,6 +84,24 @@ small {
   }   
   @include query($bp-desktopwide){    
     font-size: 1.5rem;    
+  }
+}
+
+.reading {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.7em;
+  @include query ($bp-tablet){
+    font-size: 1.3rem;
+  }
+  @include query ($bp-desktop){
+    font-size: 1.5rem;
+  }
+}
+
+ul {
+  @include query($bp-desktop){
+    padding-left: 2rem;
   }
 }
 
@@ -129,6 +153,13 @@ h2, h4, h6,
   @include query($bp-desktopwide){
     font-size: 1.3rem;
   }
+}
+
+.xxl {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+  @include query($bp-tablet){ font-size: 4rem; }
+  @include query($bp-desktopwide){ font-size: 5rem; }
 }
 
 // Blockquote
