@@ -108,7 +108,8 @@ header,
   display: inline-block;
   min-width: 250px;
   max-width: 280px;
-  padding: 1em 2em 1em 0;
+  padding: 1rem;
+  margin: 0 1rem 0 -1rem;
   overflow-wrap: break-word;
   h3 {
     padding-bottom: 0;
@@ -117,10 +118,11 @@ header,
 
 .post-link {
   display: block;
-  padding: 1rem 0 0;
+  padding: 1rem;
+  margin: 0 -1rem -1rem;
   @include query($bp-desktop){
-    padding: 1.25rem 5.1rem 0.25rem;
-    border-bottom: 1px dashed lighten($accent-color,40%);
+    padding: 1.25rem;
+    // border-bottom: 1px dashed lighten($accent-color,40%);
   }
 }
 

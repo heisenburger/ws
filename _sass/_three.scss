@@ -23,9 +23,9 @@
 .native-frame {
   padding: 0 $phi*3vw;
   @include query($bp-desktop){
-    padding: 0 $phi*9vw;
+    padding: 0 $phi*6vw;
   }
   @include query(2000px){
-    padding: 0 $phi*18vw;
+    padding: 0 $phi*12vw;
   }
 }
