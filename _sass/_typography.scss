@@ -32,27 +32,31 @@ small {
   letter-spacing: 0.1em;
 }
 
-.rbr{
+// responsive break
+.rbr {
 	display: none;
-	@include query($bp-desktop){
+  @media screen and (min-width: $bp-desktop) and (max-width: $bp-desktopwide) {
 		display: inline;
 	}
 }
 
 .easyreading {
-  font-size: 1.1rem;
-  > p {
+  font-size: 1.2rem;
+  p {
     line-height: 1.7em;
     margin-bottom: 1.2em;
     @include query($bp-tablet){
       margin-bottom: 1.5em;
     }
   }
-  > h1 {
+  h1 {
     // font-family: $display-sm;
     font-size: 3rem;
     font-weight: normal;
     line-height: 1em;
+    @include query($bp-tablet){
+      font-size: 5rem;
+    }
     @include query($bp-desktop){
       font-size: 6rem;
     }
@@ -63,11 +67,7 @@ small {
     }
   }
   h3 {
-    margin-top: 1em;
-  }
-  .f-disp {
-    line-height: 1em;
-    padding: 0.8rem 0;
+    margin-top: 2em;
   }
   li {
     margin-bottom: 0.25em;
@@ -76,26 +76,10 @@ small {
     font-size: 1.3rem;    
   }   
   @include query($bp-desktop){    
-    font-size: 1.4rem;    
-    .f-disp {   
-      line-height: 1em;   
-      padding: 0.8rem 0;    
-    }   
+    font-size: 1.4rem;      
   }   
   @include query($bp-desktopwide){    
     font-size: 1.5rem;    
-  }
-}
-
-.reading {
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.7em;
-  @include query ($bp-tablet){
-    font-size: 1.3rem;
-  }
-  @include query ($bp-desktop){
-    font-size: 1.5rem;
   }
 }
 
@@ -126,9 +110,9 @@ h3, h5,
 
 h1, h2,
 .h1, .h2 {
-  font-size: 1.85em;
+  font-size: 2em;
   @include query($bp-tablet){
-  	font-size: 2.25em;
+  	font-size: 2.5em;
   }
 }
 
@@ -146,20 +130,6 @@ h5, h6,
 h2, h4, h6,
 .h2, .h4, .h6 {
   font-weight: 600;
-}
-
-.h-sm {
-  font-size: 1rem;
-  @include query($bp-desktopwide){
-    font-size: 1.3rem;
-  }
-}
-
-.xxl {
-  font-size: 2rem;
-  letter-spacing: -0.01em;
-  @include query($bp-tablet){ font-size: 4rem; }
-  @include query($bp-desktopwide){ font-size: 5rem; }
 }
 
 // Blockquote
@@ -217,7 +187,7 @@ blockquote, .feature-text, .f-disp {
     font-size: 4rem;
   }
 	@include query($bp-desktopwide){
-		font-size: 4.2rem;
+		font-size: 5rem;
 	}
 }
 
@@ -276,7 +246,7 @@ a.feature-link {
 
 pre,
 code {
-  font-size: 0.95em;
+  font-size: 0.875em;
   border: 1px solid $grey-color-light;
   border-radius: 0.2em;
 }
