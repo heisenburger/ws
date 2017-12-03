@@ -1,7 +1,7 @@
 <script type="text/javascript">
   function downloadJSAtOnload() {
     var compiled = document.createElement("script");
-    compiled.src = "{{ site.baseurl }}/js/closure-compiler/compiled.js";
+    compiled.src = "{{ site.baseurl }}/js/compiled.js";
     document.body.appendChild(compiled);
   }
   if (window.addEventListener)
