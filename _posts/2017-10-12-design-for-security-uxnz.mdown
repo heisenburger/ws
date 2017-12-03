@@ -1,0 +1,10 @@
+---
+layout: blog
+title: "Design for Security"
+date: 2017-10-12
+event: UXNZ 2017
+tags: design video
+permalink: /talks/design-for-security-uxnz2017/
+externallink: https://www.youtube.com/watch?v=kEBIEnV5u_o
+section: talks
+---
