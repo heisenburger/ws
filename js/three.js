@@ -19529,7 +19529,7 @@ function WebGLRenderer( parameters ) {
 
 	//
 
-	_clearColor = new Color( 0x000000 ),
+	_clearColor = new Color( 0xfdfdfd ),
 	_clearAlpha = 0,
 
 	_width = _canvas.width,
