@@ -3,6 +3,7 @@
 .flex {
   display: flex;
   align-items: baseline;
+  align-content: stretch;
 }
 
 .flex-wrap {
@@ -14,10 +15,7 @@
 }
 
 .flex-child {
-  flex: 0 0 260px;
-  @include query($bp-tablet){
-    flex: 0 0 auto;
-  }
+  flex: 1;
 }
 
 // Header
@@ -108,12 +106,12 @@ header,
 
 .feature-link {
   display: inline-block;
-  // min-width: 11rem;
-  width: 21%;
-  margin: 1em 2em 1em 0;
+  min-width: 250px;
+  max-width: 280px;
+  padding: 1em 2em 1em 0;
   overflow-wrap: break-word;
   h3 {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 

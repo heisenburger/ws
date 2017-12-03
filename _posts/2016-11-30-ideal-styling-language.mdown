@@ -5,6 +5,6 @@ date: 2016-11-30
 event: CSSConfAu 2016
 tags: css
 permalink: /talks/ideal-styling-language-cssconfau/
-externallink: http://2016.cssconf.com.au/
+externallink: https://www.youtube.com/watch?v=uX9gijsLyzs
 section: talks
 ---

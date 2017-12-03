@@ -21,14 +21,11 @@
 }
 
 .native-frame {
-  padding: 0 1rem;
-  @include query($bp-tablet){
-    padding: 0 2rem;
-  }
+  padding: 0 $phi*3vw;
   @include query($bp-desktop){
-    padding: 0 10%;
+    padding: 0 $phi*9vw;
   }
-  @include query($bp-desktopwide){
-    padding: 0 ($phi*10);
+  @include query(2000px){
+    padding: 0 $phi*18vw;
   }
 }
