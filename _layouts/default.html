@@ -4,25 +4,17 @@
   {% include head.html %}
 
   <body>
-  	
 
-    <div id="fixed-frame" class="fixed-frame frame">
-     <div id="camera-frame" class="camera-frame"></div>
+    {% include header.html %}
+
+    <div class="wrap text p-top-mobile">
+        {{ content }}
     </div>
 
-    <div id="native-frame" class="native-frame">
-
-      {% include header.html %}
-
-      <div class="wrap text p-top-mobile">
-          {{ content }}
-      </div>
-
-      {% include footer.html %}
-
-    </div>
+    {% include footer.html %}
 
     {% include js.html %}
+    
   </body>
 
 </html>

@@ -4,30 +4,22 @@
   {% include head.html %}
 
   <body>
-  	
 
-    <div id="fixed-frame" class="fixed-frame frame">
-     <div id="camera-frame" class="camera-frame"></div>
-    </div>
+    {% include blog-header.html %}
 
-    <div id="native-frame" class="native-frame">
+    <div class="enter-frombottom">
+      {% include blog-title.html %}
 
-      {% include blog-header.html %}
-
-      <div class="enter-frombottom">
-        {% include blog-title.html %}
-
-        <div class="measure easyreading f-s p-top-mobile">
-            {{ content }}
-        </div>
-
+      <div class="measure easyreading f-s p-top-mobile">
+          {{ content }}
       </div>
 
-      {% include footer.html %}
-
     </div>
 
+    {% include footer.html %}
+
     {% include js.html %}
+
   </body>
 
 </html>
