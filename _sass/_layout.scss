@@ -1,22 +1,15 @@
-// Flexbox
+// CSS Grid
 
-.flex {
-  display: flex;
-  align-items: baseline;
-  align-content: stretch;
+.grid {
+  display: grid;
+  justify-content: space-between; 
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+.grid-child {
+  width: 100%;
 }
 
-.justify {
-  justify-content: space-between;
-}
 
-.flex-child {
-  flex: 1;
-}
 
 // Header
 
@@ -104,10 +97,15 @@ header,
 
 // Feature links
 
+.feature-grid {
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-gap: 1rem;
+  @include query($bp-desktop){
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
+
 .feature-link {
-  display: inline-block;
-  min-width: 250px;
-  max-width: 280px;
   padding: 1rem;
   margin: 0 1rem 0 -1rem;
   overflow-wrap: break-word;
