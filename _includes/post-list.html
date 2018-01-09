@@ -15,9 +15,7 @@
             #{{ tag }}
           {% endfor %} &mdash; {{ post.date | date: "%-d %B %Y"}}
           {% if post.externallink %}
-            <svg class="inlineicon" viewbox="0 0 100 100">
-              <use xlink:href="/images/extlink.svg#extlink"/>
-            </svg>
+            <img src="/images/extlink.svg" alt="External link" class="inlineicon" />
           {% endif %}
         </p>
       </a>
