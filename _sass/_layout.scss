@@ -12,12 +12,9 @@
 // Wrapper
 
 .wrapped {
-  padding: 0 $phi*3vw;
-  @include query($bp-desktop){
-    padding: 0 $phi*6vw;
-  }
-  @include query($bp-desktopwide){
-    padding: 0 $phi*12vw;
+  padding: 0 $phi*5vw;
+  @include query(1800px){
+    padding: 0 $phi*10vw;
   }
 }
 
