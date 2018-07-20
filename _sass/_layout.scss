@@ -54,6 +54,10 @@ header,
   padding-bottom: $spacer*2;
 }
 
+.m-bottom {
+  margin-bottom: $spacer;
+}
+
 .p-up {
   position: relative;
   top: -1em;
@@ -104,6 +108,10 @@ header,
   }
 }
 
+hr {
+  border: 0.5rem solid lighten($accent-color, 30%);
+}
+
 // Feature links
 
 .feature-grid {
@@ -121,6 +129,10 @@ header,
   h3 {
     padding-bottom: 0;
   }
+}
+
+a.feature-link {
+  background-image: none;
 }
 
 .post-link {
