@@ -31,6 +31,8 @@ header,
   }
 }
 
+// paddings
+
 .p-top-mobile {
   padding-top: $spacer / 8;
   @include query($bp-tablet){
@@ -110,6 +112,10 @@ header,
 
 hr {
   border: 0.5rem solid lighten($accent-color, 30%);
+}
+
+.tall {
+  padding: 10vh 0 5vh;
 }
 
 // Feature links

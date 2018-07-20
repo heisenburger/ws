@@ -4,7 +4,6 @@
   box-sizing: border-box;
   &:focus {
     outline: 0.5rem solid lighten($accent-color, 30%);
-    transition: 50ms;
   }
 }
 
