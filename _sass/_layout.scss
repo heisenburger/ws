@@ -56,6 +56,10 @@ header,
   padding-bottom: $spacer*2;
 }
 
+.m-top {
+  margin-top: $spacer;
+}
+
 .m-bottom {
   margin-bottom: $spacer;
 }
@@ -76,9 +80,12 @@ header,
 }
 
 .sc {
-  display: inline-block;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  display: block;
+  padding: 0;
+  @include query($bp-tablet){
+    display: inline-block;
+    padding: 0 1rem;
+  }
 }
 
 // Content
@@ -164,6 +171,14 @@ a.feature-link {
   display: inline-block;
 }
 
+.post-list {
+  @include query($bp-tablet){
+    margin-left: 1.75rem;
+    border-left: 0.5rem solid lighten($accent-color, 30%);
+    padding-left: 2.5rem;
+  }
+}
+
 // inline icons
 
 .inlineicon {
@@ -176,4 +191,17 @@ a.feature-link {
 
 footer {
 	width: 100%;
+  a {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    @include query($bp-tablet){
+      margin: 0 2rem 0 0;
+    }
+  }
+}
+
+// utilities
+
+.right {
+  float: right;
 }
