@@ -2,7 +2,7 @@
 layout: blog
 title: "Design for Security"
 date: 2018-06-13
-event: O'Reilly Velocity 2018
+event: O'Reilly Velocity
 tags: security slides
 permalink: /talks/design-for-security-velocity/
 externallink: https://speakerdeck.com/heisenburger/design-for-security-oreilly-velocity-2018

@@ -1,0 +1,10 @@
+---
+layout: blog
+title: "Feminism is a Ramp"
+date: 2016-02-24
+event: Refactor
+tags: 
+permalink: /writing/feminism-is-a-ramp/
+externallink: http://refactor.org.nz/events/2016/2/24/refactor-february-2016
+section: talks
+---
