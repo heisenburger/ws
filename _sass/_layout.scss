@@ -18,6 +18,17 @@
   }
 }
 
+// background-image
+
+.logobg {
+  background-image: 
+    linear-gradient(rgba($background-color, 0.95), rgba($background-color, 0.95)),
+    url(/images/schen-large.svg);
+  background-repeat: no-repeat;
+  background-position: top left, right -10vw bottom -30vh;
+  background-attachment: fixed;
+}
+
 // Header
 
 header,
@@ -76,7 +87,7 @@ header,
 
 .logo {
   display: inline-block;
-  height: 3rem;
+  height: 3.8rem;
 }
 
 .sc {
