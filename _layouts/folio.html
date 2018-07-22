@@ -3,19 +3,23 @@
 
   {% include head.html %}
 
-  <body class="wrapped">
+  <body>
 
-    {% include header-notitle.html %}
+    <header class="wrapped">
+      <div class="fullwidth">
+        <a href="{{ site.baseurl }}/" class="l-nu inline-block">
+          <img src="{{ site.baseurl }}/images/schen-large.svg" alt="" class="logo" style="filter: grayscale(100) brightness(0.5)" />
+        </a>
+        <h2 class="sc h3">Serena Chen</h2>
+      </div>
+    </header>
+
 
     <div class="enter-frombottom wrap text p-top-mobile">
 
       {{ content }}
 
     </div>
-
-    {% include footer.html %}
-
-    {% include js.html %}
 
   </body>
 
