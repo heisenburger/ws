@@ -213,6 +213,15 @@ footer {
   }
 }
 
+// gallery
+.gallery {
+  img {
+    padding: 2rem;
+    max-width: calc(100vw - 2 * 2rem);
+    max-height: calc(100vh - 2 * 2rem);
+  }
+}
+
 // utilities
 
 .right {

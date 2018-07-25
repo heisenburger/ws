@@ -1,20 +1,3 @@
-// Typesetting
-
-i, em {
-  font-style: italic;
-}
-
-b, strong {
-  font-weight: 600;
-}
-
-p {
-  line-height: 1.5em;
-}
-
-small {
-  font-size: 0.875em;
-}
 
 // font
 .f-ss {
@@ -23,6 +6,10 @@ small {
 
 .f-s {
   font-family: $serif;
+}
+
+.f-i {
+  font-family: Baskerville, serif;
 }
 
 // small caps
@@ -104,8 +91,7 @@ h3, h5,
 }
 
 .h2, .h4, .h6 {
-  font-family: $base-font-family;
-  text-transform: capitalize;
+  font-family: $serif;
 }
 
 h1, h2,
@@ -233,12 +219,6 @@ a.feature-link {
 
   &:hover {
     color: $accent-color;
-    // outline: 0.5rem solid #fff;
-    // h3, p {
-    //   background-color: lighten($accent-color, 40%);
-    //   box-shadow: -0.4em 0 0 lighten($accent-color, 40%),
-    //   0.4em 0 0 lighten($accent-color, 40%);
-    // }
   }
 }
 
@@ -264,4 +244,48 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+// utilities
+
+.center {
+  text-align: center;
+}
+
+// Typesetting
+
+.light {
+  font-weight: 100;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+i, em, .italic {
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.f-large {
+  font-size: 1.5rem;
+}
+
+.f-med {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+.spaced {
+  letter-spacing: 0.1em;
 }

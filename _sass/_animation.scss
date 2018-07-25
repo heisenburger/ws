@@ -27,3 +27,7 @@
 .enter-fade {
   animation: fade 500ms;
 }
+
+.enter-fade-slow {
+  animation: fade 3500ms;
+}
