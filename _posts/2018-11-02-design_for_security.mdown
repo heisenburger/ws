@@ -1,0 +1,8 @@
+---
+layout: blog
+title: "Design for Security — Increment Magazine"
+date: 2018-11-02
+tags: design, security
+externallink: https://increment.com/security/design-for-security/
+section: writing
+---
