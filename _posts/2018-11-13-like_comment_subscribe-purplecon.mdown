@@ -1,0 +1,10 @@
+---
+layout: blog
+title: "Like, comment and subscribe: Effective communication of security advice"
+date: 2018-11-15
+event: purplecon
+tags: security slides
+permalink: /talks/like-comment-subscibe-purplecon/
+externallink: https://purplecon.nz/schedule/
+section: talks
+---
