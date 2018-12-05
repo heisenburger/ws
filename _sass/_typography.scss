@@ -177,6 +177,19 @@ blockquote, .feature-text, .f-disp {
 	}
 }
 
+.drop-cap {
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 6 * $base-font-size;
+  font-weight: 700;
+  font-family: $display;
+  margin-top: 1.5rem;
+  padding-right: 0.25rem;
+}
+
 // Lists
 
 ul, ol {
