@@ -5,6 +5,6 @@ date: 2018-11-13
 event: New Zealand Internet Task Force
 tags: security slides
 permalink: /talks/like-comment-subscibe-nzitf/
-externallink: /
+externallink: https://nzitf.org.nz/
 section: talks
 ---

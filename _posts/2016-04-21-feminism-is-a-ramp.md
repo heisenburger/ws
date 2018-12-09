@@ -11,9 +11,7 @@ section: writing
 
 <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
 
-I was once a cool girl.
-
-You know what I’m talking about. One of those “cool girls”, who were “not like other girls”. “Other girls are so catty,” they say. “I’m smart, funny and reasonable.”
+<span class="drop-cap">I</span> was once a _cool girl_. You know what I’m talking about. One of those “cool girls”, who were “not like other girls”. “Other girls are so catty,” they say. “I’m smart, funny and reasonable.”
 
 See, me and a lot of girls I knew, grew up online on the early internet in the ’90s.
 
@@ -43,9 +41,7 @@ This is the tricky part — doing nothing means upholding the status quo. It
 
 <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
 
-Let’s approach this from a different angle.
-
-There’s this thing in education called “scaffolded learning”. It’s when you introduce a simple idea and get used to it. This idea might not be completely true, but in understanding it you prime your brain to better comprehend the more complex version.
+<span class="drop-cap">L</span>et’s approach this from a different angle. There’s this thing in education called “scaffolded learning”. It’s when you introduce a simple idea and get used to it. This idea might not be completely true, but in understanding it you prime your brain to better comprehend the more complex version.
 
 (I remember in high school, I got real mad that they taught us a simplified version of electrons around the atom. But then a couple of years later, I learned that electron shells were more like *solutions in 3-space to quantum energy functions*, so I kinda got why they started with 2, 8, 8.)
 
@@ -65,7 +61,7 @@ Have empathy for those who have yet to realise their biases. You were once like 
 
 <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
 
-When I look at this ramp — of feminism, of equality, of realisation — I see different ways of dealing with the society around us. Living within the system, or fighting against it.
+<span class="drop-cap">W</span>hen I look at this ramp — of feminism, of equality, of realisation — I see different ways of dealing with the society around us. Living within the system, or fighting against it.
 
 Surviving, or flourishing.
 
@@ -77,7 +73,7 @@ We have power. We can survive. And in our good times, we can flourish, too.
 
 <p style="text-align: center;">&#8729; &#8729; &#8729;</p>
 
-I went from ‘cool girl’, to choice feminist, to seeing systemic and subconscious biases. I finally realised how learning about this is a process — a *ramp*. And a dialogue between us can only happen if we empathise with each other, no matter where we sit.
+<span class="drop-cap">I</span> went from ‘cool girl’, to choice feminist, to seeing systemic and subconscious biases. I finally realised how learning about this is a process — a *ramp*. And a dialogue between us can only happen if we empathise with each other, no matter where we sit.
 
 And progress — as a community, as an industry — only happens when we take part in this dialogue. When we challenge others. When we challenge ourselves.
 
