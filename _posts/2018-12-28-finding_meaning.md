@@ -43,6 +43,6 @@ The reasoning went like this: Lots of things make people happy and life richer, 
 
 From then on, until I would eventually graduate with physics and math degrees, I was committed to becoming a physicist.
 
-I don't really know where I'm going with this story, I guess I'm just trying desperately to understand my own drivers. What do I want? Is it some kind of immortality through fame? Surely there's got to be a certain amount of narcissism involved if I think I could possibly solve any of the world's greatest problems? But I don't think I can. For all of these problems, it's perseverance and dumb luck that usually does it. Genius doesn't exist. The more brains and bodies we can throw at the world's toughest problems, the better. I might not think I can solve anything, but I can volunteer myself as a willing brain and body, and try.
+I don't really know where I'm going with this story, I guess I'm just trying desperately to understand my own drivers. What do I want?
 
 There's more to unpack here, but mum is calling us for dinner now. For now, I'm digging out a file I closed in my mind for sixteen(?) years. I'm opening it back up again for the first time. That's something.
